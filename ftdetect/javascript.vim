@@ -31,6 +31,6 @@ fu! <SID>EnableJSX()
 endfu
 
 autocmd BufNewFile,BufRead *.jsx let b:jsx_ext_found = 1
-autocmd BufNewFile,BufRead *.jsx set filetype=javascript.jsx
-autocmd BufNewFile,BufRead *.js
-  \ if <SID>EnableJSX() | set filetype=javascript.jsx | endif
+"autocmd BufNewFile,BufRead *.jsx set filetype=javascript.jsx
+"autocmd BufNewFile,BufRead *.js
+"  \ if <SID>EnableJSX() | set filetype=javascript.jsx | endif
